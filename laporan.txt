@@ -1,0 +1,7 @@
+aulia | parfum | maliaro | 9 | 45000 
+Lola Phalosa | Parfum | Umbulharjo | 5 | 25000 
+Jeje | parfum | maliaro | 10 | 50000 
+aulia | parfum | maliaro | 9 | 45000 
+aulia | parfum | maliaro | 9 | 45000 
+aulia | parfum | maliaro | 9 | 45000 
+Latif | Sejadah | Sleman | 15 | 75000 

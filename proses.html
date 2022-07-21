@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>PROSES</title>
+	<link rel="stylesheet" type="text/css" href="style2.css">
+</head>
+<body>
+	
+    <script language="JavaScript">
+    	function hitungtotal(){
+    		var jarak = (document.fform.jarak.value);
+    		var ht = 0.0;
+    		var total = 0.0;
+
+    		ht = jarak*5000;
+    		total = ht;
+    		document.fform.ototal.value=eval(total);
+    	}
+    </script>
+<header>
+	<h1 align="center">  CUSS KIRIM !  
+    </h1>
+</header>
+<br>
+<br>
+<br>
+
+<center>
+	<form action="cetak.php" method="post" name="fform">
+	<input type="text" name="inama" placeholder="Nama Pengirim">
+	<input type="text" name="ijenis" placeholder="Jenis Barang">
+	<input type="text" name="ialamat" placeholder="Alamat Tujuan">
+	<input type="text" name="jarak" placeholder="Jarak ( dalam km )">
+	<br>
+	<br>
+	<tr>
+		<td align="center"><b>Biaya Pengiriman : <input type="text" name="ototal"></td>
+	</tr>
+</center>
+	<br>
+	<center>
+		<input type="reset" value="Ulang" class="click">
+	    <input type="button" value="Hitung" onclick="hitungtotal()" class="click">
+	    <input type="submit" name="submit" value="Cetak Struk" onclick="hitungtotal()" class="click">
+
+	</center>			
+</form>
+</body>
+</html>
